@@ -103,6 +103,32 @@ const questions = [
       message: 'Please provide the test instructions. (Required)',
       choices: ['Apache 2.0 License', 'The MIT License', 'IBM Public License Version 1.0', 'Eclipse Public License 1.0', 'Boost Software License 1.0', 'None'],
     },
+    {
+      type: 'input',
+      name: 'gitHub',
+      message: 'Please enter your GitHub username. (Required)',
+      validate: gitHub => {
+        if (gitHub) {
+          return true;
+        } else {
+          console.log('Please provide your GitHub username!');
+          return false;
+        }
+      }
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please provide your email addrress. (Required)',
+      validate: testInstruc => {
+        if (testInstruc) {
+          return true;
+        } else {
+          console.log('Please provide your email addrress!');
+          return false;
+        }
+      }
+    },
   
 ];
 

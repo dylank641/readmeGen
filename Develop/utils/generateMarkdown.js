@@ -94,11 +94,16 @@ module.exports = function generateMarkdown(data) {
   
   ## Tests
 
-  ${data.testIntruc}
+  ${data.testInstruc}
 
   ## Questions
 
-  link goes here
+  GitHub Username: ${data.gitHub}
+
+  https://github.com/${data.gitHub}
+
+  ${data.email}
+  
 
 `;
 }
