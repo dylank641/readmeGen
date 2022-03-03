@@ -108,11 +108,11 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(file, data) {
+function writeToFile(data) {
   //send data to generate markdonw
   //use fs to write it to file
   return new Promise((resolve, reject) => {
-    fs.writeFile('README.md', questions, err => {
+    fs.writeFile('README.md', genMark(data), err => {
       if (err) {
         reject(err);
         return;
@@ -130,10 +130,7 @@ function writeToFile(file, data) {
 function init() {
   inquirer.prompt(questions)
 .then(function(answers){
-  console.log(answers);
-})
-.then(pageR => {
-  return writeToFile(pageR)
+  return writeToFile(answers)
 })
 .catch(err => {
   console.log(err);

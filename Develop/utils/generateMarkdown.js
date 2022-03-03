@@ -85,7 +85,7 @@ module.exports = function generateMarkdown(data) {
 
   ## License
 
-  ${renderLicenseLink(license)}
+  ${renderLicenseLink(data.license)}
 
 
   ## Contributing
