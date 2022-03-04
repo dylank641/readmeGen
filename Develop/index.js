@@ -3,19 +3,6 @@ const inquirer = require('inquirer');
 const genMark = require('./utils/generateMarkdown');
 const fs = require('fs');
 
-//project title
-//description
-//installation instructions
-//usage information
-//contribution guidelines
-//test instructions
-//licence(options)
-//github username
-
-//Questions
-//email addrress goes under questions
-
-
 
 // TODO: Create an array of questions for user input
 const questions = [

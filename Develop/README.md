@@ -1,10 +1,10 @@
-# Readme Generator
+# WeatherApp
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
- this will populate a readme file
+ provides weather info on any city around the world
   
   ## Table of Contents
   
@@ -21,7 +21,7 @@
   
   ## Usage
   
-  example
+  used for getting accurate weather info
 
 
 
@@ -32,11 +32,11 @@
 
   ## Contributing
 
-  dylan and tony
+  Dylan and weatherapp team
   
   ## Tests
 
-  video
+  run npm index.js
 
   ## Questions
 
