@@ -75,7 +75,7 @@ module.exports = function generateMarkdown(data) {
   
   ## Installation
   
-  ${data.installIntruc}
+  ${data.installInstruc}
   
   ## Usage
   
@@ -102,8 +102,8 @@ module.exports = function generateMarkdown(data) {
 
   https://github.com/${data.gitHub}
 
-  ${data.email}
-  
+  For any questions please reach me at: ${data.email}
+
 
 `;
 }

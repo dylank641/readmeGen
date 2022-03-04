@@ -100,7 +100,7 @@ const questions = [
     {
       type: 'list',
       name: 'license',
-      message: 'Please provide the test instructions. (Required)',
+      message: 'Please choose a Markdown License Badge. (Required)',
       choices: ['Apache 2.0 License', 'The MIT License', 'IBM Public License Version 1.0', 'Eclipse Public License 1.0', 'Boost Software License 1.0', 'None'],
     },
     {

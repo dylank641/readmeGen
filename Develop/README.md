@@ -1,10 +1,10 @@
-# d
+# Readme Generator
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
- d
+ this will populate a readme file
   
   ## Table of Contents
   
@@ -17,26 +17,26 @@
   
   ## Installation
   
-  undefined
+  npm init, npm install, npm install inquirer
   
   ## Usage
   
-  s
+  example
 
 
 
   ## License
 
-  https://opensource.org/licenses/Apache-2.0
+  https://opensource.org/licenses/MIT
 
 
   ## Contributing
 
-  s
+  dylan and tony
   
   ## Tests
 
-  s
+  video
 
   ## Questions
 
@@ -44,6 +44,6 @@
 
   https://github.com/dylank641
 
-  gangagng
-  
+  For any questions please reach me at: dylan.killelea@yahoo.com
+
 
